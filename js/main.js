@@ -150,11 +150,10 @@ function append(root, node) {
     return root;
 }
 
-/*******************************************
- * Do not change anything below this point *
- * Do not change anything below this point *
- * Do not change anything below this point *
- * *****************************************/
+/**********************************************
+ * You can change this method, but the output *
+ * has to be the same                         *
+ * ********************************************/
 function setupPage() {
     resetDocument();
     append(getBody(), (append(div(), text("Hello"))));
